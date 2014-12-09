@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/cloth"
+	style="@style/Parent" >
+	<LinearLayout
+		style="@style/common_titlebar" >
+		<TextView
+			android:text="@string/dialogues"
+			style="@style/titlebar_text" />
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:gravity="right" >
+			<ImageView
+				style="@style/titlebar_icon" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="7dp"
+		android:paddingBottom="7dp"
+		android:gravity="center"
+		android:background="#FFFFFF"
+		android:textColor="#0600A2"
+		android:text="@string/audio_hint" />
+	<ScrollView 
+    	android:id="@+id/scroller"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:fillViewport="true"
+    	android:background="#55FFFFFF"
+    	android:scrollbarThumbVertical="@drawable/scrollbar_color" >
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="fill_horizontal" >
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/brundhavanam_listen"
+					android:text="0:15"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/brundhavanam_dialogue"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/yamadonga_listen"
+					android:text="0:23"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/yamadonga_dialogue"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/yamadonga_emantivi_listen"
+					android:text="1:50"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/yamadonga_emantivi_dialogue"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/aadi_ammathodu"
+					android:text="0:08"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/aadi_ammathodu"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/aadi_magadu"
+					android:text="0:43"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/aadi_magadu"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="fill_horizontal" >
+				<Button
+					android:id="@+id/rakhi_train"
+					android:text="1:45"
+					style="@style/audio_play_button" />
+				<TextView
+					android:text="@string/rakhi_train"
+					style="@style/audio_play_text" />
+			</LinearLayout>
+	</LinearLayout>
+</ScrollView>
+</LinearLayout>

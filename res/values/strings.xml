@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">NTR Jr</string>
+<string name="welcome">Welcome to NTR\'s Android App</string>
+<string name="about_ntr">NTR Jr. is son of Actor and Politician Nandamuri Harikrishna and Shalini. He is grandson of Telugu film industry\'s legend late N. T. Rama Rao (NTR).</string>
+<string name="tarak">Tarak</string>
+<string name="splash_screen">Johar NTR</string>
+<string name="menu">Menu</string>
+<string name="movies">Movies</string>
+<string name="biography">Biography</string>
+<string name="pictures">Photos</string>
+<string name="videos">Videos</string>
+<string name="dialogues">Dialogues</string>
+<string name="brundhavanam_dialogue">Brundhavanam city dialogue</string>
+<string name="yamadonga_dialogue">Yamadonga puli dialogue</string>
+<string name="yamadonga_emantivi_dialogue">Yamadonga emantivi dialogue</string>
+<string name="aadi_ammathodu">Aadi ammathodu dialogue</string>
+<string name="aadi_magadu">Aadi magadu dialogue</string>
+<string name="rakhi_train">Rakhi powerfull train dialogue</string>
+<string name="audio_hint">Please make sure media volume is audible</string>
+</resources>

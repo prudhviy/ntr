@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.prudhvi.ntr"
+      android:versionCode="1"
+      android:versionName="1.0" >
+	<uses-sdk android:minSdkVersion="4"/>
+	<supports-screens
+          android:largeScreens="true"
+          android:normalScreens="true"
+          android:smallScreens="true"
+          android:anyDensity="true" />
+	<uses-sdk android:targetSdkVersion="7"/>
+	<application android:icon="@drawable/launcher_icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" android:debuggable="true">
+    	<activity android:name=".splash" android:screenOrientation="portrait">
+        	 <intent-filter>
+        	 	  <action android:name="android.intent.action.MAIN" />	
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+    	<activity android:name=".home" android:screenOrientation="portrait">
+        	<intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".menu" android:screenOrientation="portrait">
+        	 <intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+		<activity android:name=".gallery" android:screenOrientation="portrait">
+        	 <intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+		<activity android:name=".dialogues" android:screenOrientation="portrait">
+        	 <intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+		<activity android:name=".movies" android:screenOrientation="portrait">
+        	 <intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+		<activity android:name=".pictureCube" android:screenOrientation="portrait">
+        	 <intent-filter>
+				<category android:name="android.intent.category.LAUNCHER" />
+		 	</intent-filter>
+		</activity>
+	</application>
+</manifest> 

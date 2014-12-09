@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="20dp">
+      <bitmap android:src="@drawable/movies"
+        android:gravity="center" />
+    </item>
+    <item android:bottom="-30dp" android:left="20dp">
+      <bitmap android:src="@drawable/videos"
+        android:gravity="center" />
+    </item>
+    <item android:bottom="-60dp" android:left="45dp">
+      <bitmap android:src="@drawable/dialogues"
+        android:gravity="center" />
+    </item>
+</layer-list>
